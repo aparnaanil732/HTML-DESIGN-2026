@@ -1,0 +1,259 @@
+/* 
+
+selectors
+==========
+simple selectors - elements name,id,class
+combinators: descedant combinator(space)
+             child combinator(>)
+             adjascent combinator(+)
+             general sibling(~)
+
+pseudo-class selectors:
+            selector:pseudo{
+}
+
+
+*/
+
+/* img{
+    width: 300px;
+    height: 450px;
+} */
+
+/* #head1{
+    color: blue;
+}
+
+.c1{
+    background-color: blueviolet;
+} */
+
+/* descendant combinator */
+/* div p{
+    color: chartreuse;
+} */
+
+
+
+/* child selector  */
+/* div>p{
+    color: chartreuse;
+} */
+
+
+
+/* adjascent sibling selector  */
+/* div+p{
+    color: chartreuse;
+} */
+
+
+/* general sibiling */
+/* div~p{
+    color: chartreuse;
+} */
+
+/* img{
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+input:focus{
+    background-color: aqua;
+}
+
+a:link{
+    color: rgb(7, 241, 70);
+}
+
+a:hover{
+    color: black;
+}
+
+a:active{
+    color: rgb(225, 13, 233);
+}
+
+a:visited{
+    color: rgb(218, 186, 186);
+}
+
+
+p::first-line{
+    background-color: aqua;
+}
+
+p::first-letter{
+    color: chartreuse;
+}
+
+p::before{
+    content: "****";
+}
+
+p::after{
+    content: "********";
+}
+
+::marker{
+    color: red;
+}
+
+::selection{
+    background-color: chartreuse;
+    color: rgb(213, 126, 126);
+}
+ */
+
+
+
+ body{
+    /* background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+
+}
+
+/* body{
+    background-image: linear-gradient(to right,rgb(255, 38, 0),yellow,rgb(158, 158, 126));
+} */
+/* 
+css display
+========== */
+
+div{
+    /* width: 200px;
+    height: 200px; */
+}
+
+/* #box1{
+    background-color: blue;
+    display: inline
+}
+
+#box2{
+    background-color: green;
+    display: inline
+}
+
+#box3{
+    background-color: chartreuse;
+    display: inline
+} */
+
+/* 
+#box1{
+    background-color: blue;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+#box2{
+    background-color: green;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+#box3{
+    background-color: chartreuse;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+/* .container{
+    width: 100%;
+    background-color: aqua;
+    height: 400px;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+/* .box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(130, 101, 156);
+    border: 1px solid black;
+}
+
+.p1{
+    display: none;
+}
+
+.head1:hover+p{
+    display: block;
+} */
+
+{
+    /* position:static;
+    position:relative;
+    position:absolute;
+    position:sticky;
+    position:fixed; */
+}
+/* 
+.para7{
+    position: relative;
+    left: 300px;
+}
+.para7{
+    position: absolute;
+    left: 300px;
+}
+
+.para7{
+    position: sticky;
+    left: 0px;
+}
+
+.para7{
+    position: fixed;
+    left: 0px;
+}
+
+
+.b1{
+    width: 400px;
+    height: 350px;
+    position: relative;
+    background-color: aqua;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.b2{
+    width: 150px;
+    height: 100px;
+    border: 1px solid;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}  */
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-box1{
+    background-color: rgb(9, 27, 39);
+}
+
+.nav-box1 img{
+    background: transparent;
+}
